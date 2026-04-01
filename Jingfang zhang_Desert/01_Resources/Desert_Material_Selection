@@ -1,0 +1,19 @@
+Desert Scene Material Selection
+Desert Scene
+
+1. Selected Materials
+- Wooden house: Western cartoon style, appropriate size
+- Rocks: suitable for jumping obstacles, clear texture
+- Sand terrain: seamless tiling, fits desert environment
+
+2. Selection Criteria
+- Match team cartoon low-poly style
+- Low polygon count to avoid lag
+- Importable into Unity
+- Support collision and scripts
+
+3. Usage Priority
+1. Track & Terrain (Highest)
+2. Wooden House & Rocks (High)
+3. Bonfire & Decorations (Medium)
+4. Effects & Audio (Low)
