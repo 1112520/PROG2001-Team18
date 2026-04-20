@@ -1,0 +1,45 @@
+Eternal Journey - Sandbeach Scene
+Storyboard - Day 2
+[Scene Overview]
+- Scene Name: Golden Coast (Sandbeach)
+- Theme: Endless Skateboarding on Tropical Beach
+- Core Gameplay: Automatic movement + Left and right lane changes + Jumping/Skiing to avoid obstacles + Collecting gold coins 
+【Running Route Planning】
+- Runway Type: Wooden Bridge Runway (3 lanes)
+- Background Environment: On the left is the sea, and on the right are the beach and palm trees
+- Runway Length: Infinite loop (achieved through repeated concatenation) 
+【Obstacle Placement Design】
+1. Rock
+- Lane Appearance: Randomly appear in 1 lane
+- Avoidance Method: Change lanes left or right or jump
+- Distribution Density: One group appears every 20-30 meters
+- Damage: Collision deducts 1 health point 
+2. Pirate Barrel
+- Lane appearance: Randomly appears in 1 lane
+- Avoidance method: Change lanes left and right (no jumping is allowed as the barrel is relatively high)
+- Density: Appears every 40-50 meters
+- Damage: Collisions deduct 1 health point 
+3. Low Wooden Fence
+- Appearance on the road: Spanning across 3 lanes (must slide through)
+- Avoidance method: Press the down arrow key to slide
+- Density: Appears every 50-60 meters
+- Damage: Colliding causes 1 point of health loss 
+【Distribution of Collectibles】
+- Gold Coins (Coin)
+  - Distribution: Uniformly scattered along the track, with some appearing in rows.
+  - Effect: Each coin grants 10 points.
+  - Mystery Box with Question Mark
+    - Distribution: Scarce, appears every 80-100 meters.
+    - Effect: Randomly obtain magnet/deflector/double score. 
+【Scene Transition and Connection】
+- Entrance: After clicking "Start Game" in the main menu, the player will be automatically directed to the City scene. The player can navigate to the Sandbeach scene by pressing the "Next Level" button within the game or by selecting the scene upon death.
+- Exit: When the player's health reaches zero, a Game Over panel will appear. The player can choose to "Play Again" or "Return to Main Menu".
+- Connection with Team Navigation: Use a unified pause menu prefab (including a return to main menu button and a "Restart" button). 
+【UX Design Considerations】
+- Feedback: The screen flashes red when colliding with obstacles and there is a blood-sucking sound effect; the score jumps when collecting gold coins and there is a ding sound effect.
+- Usability: The reefs and pirate barrels are colored in bright warning colors (red/orange) to contrast with the background.
+- Consistency: The UI position, font, and button style are completely consistent with the City/Desert scenes. 
+【Pending Confirmation Items】
+- Confirm with the team whether the gold score is uniformly set globally (10 points per item)
+- Confirm the initial health value of the players (suggest 3 points)
+- Confirm whether the jumping force is consistent with the City scene 
